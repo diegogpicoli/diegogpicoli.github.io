@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+.fixed {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur( 5.5px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  font-size: 25px;
+  padding: 20px;
+  width: 100%;
+}
+
+.list-header li:hover {
+  text-decoration: underline;
+}
+
+.infoPerfil {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nome {
+  font-size: 30px;
+}
+
+.fundo {
+  background-image: url('../imgs/backgroud.png');
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.imagemPerfil {
+  width: 30%;
+}
+
+.contatos {
+  display: flex;
+}
+
+.contatos h3 {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+@media (max-width: 1200px) { 
+  .nome {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .infoPerfil {
+    flex-direction: column;
+  }
+  .imagemPerfil {
+    width: 30%;
+  }
+}
+
+@media (max-width: 850px) { 
+  .nome {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .infoPerfil {
+    flex-direction: column;
+  }
+  .imagemPerfil {
+    width: 70%;
+  }
+}
+
+@media (max-width: 650px) { 
+  .nome {
+    font-size: 15px;
+ 
+  }
+
+  .list-header {
+    font-size: 15px;
+  }
+  .marginTop {
+    font-size: 15px;
+  }
+  .infoPerfil {
+    flex-direction: column;
+  }
+  .imagemPerfil {
+    width: 70%;
+  }
+}
+
+@media (max-width: 420px) { 
+  .nome {
+    font-size: 15px;
+ 
+  }
+  .imagemPerfil {
+    width: 100%;
+  }
+}
