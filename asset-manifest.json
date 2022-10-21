@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d2acf168.css",
+    "main.js": "/static/js/main.f6ba94e6.js",
+    "static/media/backgroud.png": "/static/media/backgroud.a63ae5ef8faadd747570.png",
+    "static/media/jest-2.png": "/static/media/jest-2.562d15a97cfb4049d113.png",
+    "static/media/react-icon.png": "/static/media/react-icon.007bfcbafcd9def285ea.png",
+    "static/media/docker.png": "/static/media/docker.618ae2c5424684fc73b6.png",
+    "static/media/redux-icon.png": "/static/media/redux-icon.e893fe58f008527c6045.png",
+    "static/media/testando.png": "/static/media/testando.1e183d86af8d075ac2f4.png",
+    "static/media/sobre.png": "/static/media/sobre.456b59e8ed5c5d2334b1.png",
+    "static/media/node.png": "/static/media/node.ac8ae83c185772d6fa63.png",
+    "static/media/github-icon.png": "/static/media/github-icon.593b7df080ce7b7404e4.png",
+    "static/media/mysql.png": "/static/media/mysql.8cd2febee80f510a6e8c.png",
+    "static/media/js-icon.png": "/static/media/js-icon.38c372a681e780c08cc2.png",
+    "static/media/html-icon.png": "/static/media/html-icon.76bf5612a340a7026a51.png",
+    "static/media/css-icon.png": "/static/media/css-icon.b1c014e11d47fc625366.png",
+    "static/media/git-icon.png": "/static/media/git-icon.831eb0ace13f0e978d82.png",
+    "index.html": "/index.html",
+    "main.d2acf168.css.map": "/static/css/main.d2acf168.css.map",
+    "main.f6ba94e6.js.map": "/static/js/main.f6ba94e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2acf168.css",
+    "static/js/main.f6ba94e6.js"
+  ]
+}
